@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kklabのポートフォリオサイト。デザインと開発、Web制作の実績を紹介します。"
+    />
+    <title>Kklab Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Kklab home">Kklab</a>
+        <nav class="main-nav" aria-label="メインメニュー">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">UI / Frontend / Web Design</p>
+            <h1>Think better, design clearer, build with purpose.</h1>
+            <p class="lead">
+              Webサイトとデジタルプロダクトの企画・設計・実装を行うクリエイターです。
+              ユーザーにとって使いやすく、ブランド価値を伝えられる体験を作ります。
+            </p>
+            <div class="cta-group">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#contact">Get in Touch</a>
+            </div>
+            <ul class="hero-metrics" aria-label="Achievements">
+              <li><strong>6+</strong><span>Years</span></li>
+              <li><strong>30+</strong><span>Projects</span></li>
+              <li><strong>100%</strong><span>Custom</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Profile card">
+            <div class="profile-card">
+              <div class="avatar">KK</div>
+              <div class="card-body">
+                <p class="label">Creative Technologist</p>
+                <h2>Kklab</h2>
+                <p>Strategy / Visual / Frontend</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Design and code that connect emotion with functionality.</h2>
+          </div>
+          <div class="about-grid">
+            <p>
+              これまでに、企業サイト、個人ブランド、サービス紹介ページの制作に携わってきました。
+              目的とユーザーの行動に対して、情報設計から見た目の精度までを丁寧に整え、
+              「伝わる」「使いやすい」「思い出に残る」を実現することを大切にしています。
+            </p>
+            <p>
+              HTML/CSSを中心にした構築を得意とし、コンポーネント単位で整えた設計を行うことで、
+              メンテナンスしやすく、拡張性のあるWebサイトを生み出します。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section muted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Core strengths</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Design</h3>
+              <p>UI設計、レイアウト、デザインシステム、ブランディングを一貫して考案。</p>
+            </article>
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <p>HTML/CSSによる構築、レスポンシブ対応、アクセシビリティを意識した実装。</p>
+            </article>
+            <article class="skill-card">
+              <h3>Strategy</h3>
+              <p>目的に合わせた情報整理、導線設計、コンテンツの見せ方を最適化。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Recent projects</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-tag">Brand Site</div>
+              <h3>Studio Horizon</h3>
+              <p>クリエイティブ企業向けのブランディングサイト。伝えたい価値を明確に見せるデザインを構築。</p>
+            </article>
+            <article class="project-card">
+              <div class="project-tag">Portfolio</div>
+              <h3>Maru Design</h3>
+              <p>個人クリエイター向けのポートフォリオ。作品の視認性とストーリー性を高めた構成。</p>
+            </article>
+            <article class="project-card">
+              <div class="project-tag">Landing Page</div>
+              <h3>Launch Lab</h3>
+              <p>新サービスの認知拡大を狙ったLP。訴求の整理と導線の最適化を重視した制作。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent-block">
+        <div class="container quote-wrap">
+          <p>
+            “Good design is not just about aesthetics — it is about clarity, trust, and the experience that makes people act.”
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+        </div>
+        <a href="mailto:hello@kklab.example" class="button primary">hello@kklab.example</a>
+      </div>
+    </footer>
+  </body>
+</html>
